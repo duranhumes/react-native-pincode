@@ -487,14 +487,6 @@ class PinCode extends React.PureComponent<IProps, IState> {
                   style={{ opacity: opacity }}
                 />
               )}
-              <Text
-                style={[
-                  styles.textDeleteButton,
-                  this.props.styleDeleteButtonText,
-                  { color: this.state.colorDelete, opacity: opacity }
-                ]}>
-                {this.props.buttonDeleteText}
-              </Text>
             </>
           }
         </View>
